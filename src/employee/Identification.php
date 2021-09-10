@@ -1,6 +1,6 @@
 <?php
 
-namespace Mgntlib\Employee;
+namespace LIGAssetManagement\Employee;
 
 use App\Models\Employee as EmployeeModel;
 
