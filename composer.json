@@ -1,0 +1,23 @@
+{
+    "name": "kevinloquenciolig/assetmngt-modules",
+    "description": "Library for asset management modules",
+    "authors": [{
+        "name": "Kevin Loquencio",
+        "email": "kevin_loquencio@cody.inc"
+    }],
+    "type": "library",
+    "license": "None",
+    "autoload": {
+        "psr-4": {
+            "LIGAssetManagement\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LIGAssetManagement\\DatasourceProvider"
+            ]
+        }
+    }
+}
