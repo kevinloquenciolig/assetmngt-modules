@@ -12,12 +12,5 @@
             "LIGAssetManagement\\": "src/"
         }
     },
-    "minimum-stability": "stable",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "LIGAssetManagement\\DatasourceProvider"
-            ]
-        }
-    }
+    "minimum-stability": "stable"
 }
